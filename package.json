@@ -29,6 +29,7 @@
     "postinstall": "cd backend && npm install && cd ../frontend && npm install && cd ../proxy && npm install",
     "start": "NODE_ENV=production node server",
     "start-dev": "NODE_ENV=development node server",
+    "test-frontend": "cd frontend && npm run test",
     "update-schema": "cd backend && npm run update-schema"
   }
 }
